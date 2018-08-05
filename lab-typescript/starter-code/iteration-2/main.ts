@@ -14,9 +14,10 @@ class Todo implements todoInterface {
     this.myArray2.push(target);
     console.log(`
     =========== NEW TASK =========== 
-    Task "${target}" inserted in the list`);
+    Task "${target}" inserted in the list
+    
+    Number of items: ${this.myArray2.length}`);
 
-    console.log(`Number of items: ${this.myArray2.length}`);
     return this.myArray2.length;
   }
 
@@ -29,9 +30,11 @@ class Todo implements todoInterface {
     this.myArray2.splice(tempIndex,1);
     console.log(`
     =========== TASK REMOVED ===========
-    Task "${target}" removed from the list`);
+    Task "${target}" removed from the list
+    
+    Number of items: ${this.myArray2.length}
+    `);
 
-    console.log(`Number of items: ${this.myArray2.length}`);
     return this.myArray2.length;
   } 
 
