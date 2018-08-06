@@ -15,13 +15,12 @@ export interface ToDoItemInterface {
   title: string;
   status: boolean;
   updatedAt: Date;
-  toggleStatus(): boolean;  
+  toggleStatus(): void;  
 }
 
 export interface ToDoListInterface {
   list: Array<ToDoItemInterface>;
-  addTask(target: ToDoItemInterface): void;
+  addTask(target: ToDoItemInterface): number;
   listAllTasks(): void;
-  deleteTask(target:ToDoItemInterface): void;
-  showAll(): void;  
+  deleteTask(target:ToDoItemInterface): number;
 }
