@@ -1,0 +1,23 @@
+img {
+  margin: 1%;
+  width: 10em;
+  height: 10em;
+}
+
+ul {
+  display: flex;
+  justify-content: flex-start;
+  align-content: space-between;
+  flex-wrap: wrap;
+}
+
+ul > li {
+  text-align: center;
+  margin: 2%;
+}
+
+.inputContainer {
+  flex-flow: row wrap;
+  justify-content: center;
+  display: flex;
+}
