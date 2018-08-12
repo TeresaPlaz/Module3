@@ -21,3 +21,15 @@ ul > li {
   justify-content: center;
   display: flex;
 }
+
+.container {
+  margin: 0 auto;
+  width: 10%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Addbtn, h2 {
+  display: flex;
+  margin: 2% auto;
+}
