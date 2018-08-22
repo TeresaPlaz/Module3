@@ -42,9 +42,10 @@ export class FoodListComponent implements OnInit {
 
   addFoodToList(food, Quantity) {
 
-    const todayFood = Object.assign({}, food);
+    const todayFood = Object.assign( {}, food );
+    
     this.todayCalories += food.calories * Quantity;
-    Object.defineProperty(todayFood, "quantity", { value: Quantity});
+    todayFood.quantity = Quantity;
 
     const finder = this.todayList.find(i => i.name === food.name);
 
