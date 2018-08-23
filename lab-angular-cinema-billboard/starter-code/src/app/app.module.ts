@@ -6,6 +6,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import { MyHomeComponentComponent } from './my-home-component/my-home-component.component';
 import { MyMovieComponentComponent } from './my-movie-component/my-movie-component.component';
+import { CinemaServiceService } from './cinema-service.service';
 
 const routes: Routes = [
   { path: ""  , redirectTo: "home", pathMatch: 'full'},
@@ -25,7 +26,7 @@ const routes: Routes = [
     HttpModule,
     RouterModule.forRoot(routes)
   ],
-  providers: [],
+  providers: [CinemaServiceService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

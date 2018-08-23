@@ -1,6 +1,5 @@
 import { Injectable, OnInit } from '@angular/core';
-import Moviez  from '../sample-movies.js';
-import { element } from '@angular/core/src/render3/instructions';
+import { Moviez }  from '../sample-movies.js';
 
 interface movie {
 id: Number;
@@ -20,7 +19,7 @@ room: Number;
 })
 export class CinemaServiceService implements OnInit
 {
-  Movies: movie[];
+  Movies: movie[] = Moviez;
 
   constructor () { }
 
@@ -34,9 +33,6 @@ export class CinemaServiceService implements OnInit
     return this.Movies.find( element => element.id === id );
   }
 
-  ngOnInit ()
-  {
-    this.Movies = Moviez;
-  }
+  ngOnInit () { }
   
 }

@@ -1,15 +1,15 @@
-[
+const Moviez = [
   {
-    "id": 1,
-    "title": "The Shawshank Redemption",
-    "poster": "https://i.imgur.com/SuW2ZlC.jpg",
-    "synopsis": "In 1947, Andy Dufresne (Tim Robbins), a banker in Maine, is convicted of murdering his wife and her lover, a golf pro. Since the state of Maine has no death...",
-    "genres": [
+    id: 1,
+    title: "The Shawshank Redemption",
+    poster: "https://i.imgur.com/SuW2ZlC.jpg",
+    synopsis: "In 1947, Andy Dufresne (Tim Robbins), a banker in Maine, is convicted of murdering his wife and her lover, a golf pro. Since the state of Maine has no death...",
+    genres: [
       "Crime", "Drama"
     ],
-    "year": 1994,
-    "director": "Frank Darabont",
-    "actors": [
+    year: 1994,
+    director: "Frank Darabont",
+    actors: [
       "Tim Robbins",
       "Morgan Freeman",
       "Bob Gunton",
@@ -17,19 +17,19 @@
       "Clancy Brown",
       "Gil Bellows"
     ],
-    "hours": ["Monday at 5:00pm","Thursday at 2:00pm", "Saturday at 8:00am"],
-    "room": 5
+    hours: [ "Monday at 5:00pm", "Thursday at 2:00pm", "Saturday at 8:00am" ],
+    room: 5
   }, {
-    "id": 2,
-    "title": "The Godfather",
-    "poster": "https://i.imgur.com/Uzvny9I.jpg",
-    "synopsis": "In late summer 1945, guests are gathered for the wedding reception of Don Vito Corleone's daughter Connie (Talia Shire) and Carlo Rizzi (Gianni Russo). Vito...",
-    "genres": [
+    id: 2,
+    title: "The Godfather",
+    poster: "https://i.imgur.com/Uzvny9I.jpg",
+    synopsis: "In late summer 1945, guests are gathered for the wedding reception of Don Vito Corleone's daughter Connie (Talia Shire) and Carlo Rizzi (Gianni Russo). Vito...",
+    genres: [
       "Crime", "Drama"
     ],
-    "year": 1972,
-    "director": "Francis Ford Coppola",
-    "actors": [
+    year: 1972,
+    director: "Francis Ford Coppola",
+    actors: [
       "Marlon Brando",
       "Al Pacino",
       "James Caan",
@@ -37,19 +37,19 @@
       "Robert Duvall",
       "Sterling Hayden"
     ],
-    "hours": ["Wednesday at 1:00pm","Tuesday at 7:00pm", "Sunday at 2:00am"],
-    "room": 4
+    hours: [ "Wednesday at 1:00pm", "Tuesday at 7:00pm", "Sunday at 2:00am" ],
+    room: 4
   }, {
-    "id": 3,
-    "title": "The Godfather Part II",
-    "poster": "https://i.imgur.com/abJNkWI.jpg",
-    "synopsis": "The Godfather Part II presents two parallel storylines. One involves Mafia chief Michael Corleone in 1958/1959 after the events of the first movie; the othe...",
-    "genres": [
+    id: 3,
+    title: "The Godfather Part II",
+    poster: "https://i.imgur.com/abJNkWI.jpg",
+    synopsis: "The Godfather Part II presents two parallel storylines. One involves Mafia chief Michael Corleone in 1958/1959 after the events of the first movie; the othe...",
+    genres: [
       "Crime", "Drama"
     ],
-    "year": 1974,
-    "director": "Francis Ford Coppola",
-    "actors": [
+    year: 1974,
+    director: "Francis Ford Coppola",
+    actors: [
       "Al Pacino",
       "Robert Duvall",
       "Diane Keaton",
@@ -57,19 +57,19 @@
       "John Cazale",
       "Talia Shire"
     ],
-    "hours": ["Friday at 9:00pm","Monday at 10:00am", "Thursday at 3:00am"],
-    "room": 3
+    hours: [ "Friday at 9:00pm", "Monday at 10:00am", "Thursday at 3:00am" ],
+    room: 3
   }, {
-    "id": 4,
-    "title": "The Dark Knight",
-    "poster": "https://i.imgur.com/3jLPB46.jpg",
-    "synopsis": "The movie begins with a gang of men with clown masks breaking into the bank where the mob has a large portion of their money stashed. It begins with five cl...",
-    "genres": [
+    id: 4,
+    title: "The Dark Knight",
+    poster: "https://i.imgur.com/3jLPB46.jpg",
+    synopsis: "The movie begins with a gang of men with clown masks breaking into the bank where the mob has a large portion of their money stashed. It begins with five cl...",
+    genres: [
       "Action", "Crime", "Drama", "Thriller"
     ],
-    "year": 2008,
-    "director": "Christopher Nolan",
-    "actors": [
+    year: 2008,
+    director: "Christopher Nolan",
+    actors: [
       "Christian Bale",
       "Heath Ledger",
       "Aaron Eckhart",
@@ -77,19 +77,19 @@
       "Maggie Gyllenhaal",
       "Gary Oldman"
     ],
-    "hours": ["Monday at 3:00pm","Thursday at 7:00pm", "Saturday at 6:00am"],
-    "room": 2
+    hours: [ "Monday at 3:00pm", "Thursday at 7:00pm", "Saturday at 6:00am" ],
+    room: 2
   }, {
-    "id": 5,
-    "title": "Schindler's List",
-    "poster": "https://i.imgur.com/IWZJOmu.jpg",
-    "synopsis": "The relocation of Polish Jews from surrounding areas to Krakow begins in late 1939, shortly after the outbreak of World War II, when the German Army defeats...",
-    "genres": [
+    id: 5,
+    title: "Schindler's List",
+    poster: "https://i.imgur.com/IWZJOmu.jpg",
+    synopsis: "The relocation of Polish Jews from surrounding areas to Krakow begins in late 1939, shortly after the outbreak of World War II, when the German Army defeats...",
+    genres: [
       "Biography", "Drama", "History"
     ],
-    "year": 1993,
-    "director": "Steven Spielberg",
-    "actors": [
+    year: 1993,
+    director: "Steven Spielberg",
+    actors: [
       "Liam Neeson",
       "Ben Kingsley",
       "Ralph Fiennes",
@@ -97,7 +97,9 @@
       "Jonathan Sagall",
       "Embeth Davidtz"
     ],
-    "hours": ["Monday at 10:00pm","Thursday at 11:00pm", "Saturday at 9:00am"],
-    "room": 1
+    hours: [ "Monday at 10:00pm", "Thursday at 11:00pm", "Saturday at 9:00am" ],
+    room: 1
   }
-]
+];
+
+export { Moviez };
